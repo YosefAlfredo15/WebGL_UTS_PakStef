@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+   <head>
+      <style type="text/css">
+         canvas{
+            float: left;
+            margin-right: 30px;
+         }
+      </style>
+   </head>
+   <body>
+      <canvas width = "600" height = "600" id = "my_Canvas" style="background-color: purple;"></canvas>
+      
+      <div class="selection">
+         <p>Pilih Ukuran Objek</p>
+         Increasing/Decreasing Size:
+         <select id="size">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="-1">-1</option>
+            <option value="1.5">1.5</option>
+            <option value="-0.5">-0.5</option>
+         </select>
+         <button onclick="showValue()">Submit</button>
+      </div>
+   </body>
+      <script type="text/javascript" src="geometry.js"></script>
+      <script type="text/javascript" src="shader.js"></script>
+      <script type="text/javascript" src="scaling.js"></script>
+      <script type="text/javascript" src="rotation.js"></script>
+</html> 
