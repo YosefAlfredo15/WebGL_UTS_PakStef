@@ -1,2 +1,2 @@
 # WebGLUTS
-Tugas UTS dengan membuat obyek 3D menggunakan webGL berupa bangunan gudang
+Project UTS (Ujian Tengah Semester) membuat obyek 3D menggunakan webGL yaitu bangunan gudang
